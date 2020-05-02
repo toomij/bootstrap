@@ -1,15 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
 .container {
-  width: 1200px;
   margin: 0 auto;
+  max-width: 1200px;
+  min-width: 600px;
+  min-height: 100%;
+}
+
+.clr {
+  height: 200px;
 }
 
 .header {
+  min-height: 200px;
+  background-color: #36a690;
   height: 200px;
-  border-color: darkcyan;
 }
 
 .nav {
+  background-color: #d9684c;
+  float: left;
+  height: 300px;
   width: 200px;
+}
+
+p {
+  margin-left: 200px;
+  display: block;
+}
+
+.footer {
+  background-color: #e19769;
   height: 200px;
-  border-color: darkblue;
+  width: 1200px;
+  margin: -200px auto;
 }
