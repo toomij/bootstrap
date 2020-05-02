@@ -3,13 +3,7 @@
   margin: 0 auto;
 }
 
-.header {
-  height: 200px;
-  border-color: darkcyan;
-}
-
-.nav {
-  width: 200px;
-  height: 200px;
-  border-color: darkblue;
+.pag {
+  display: block;
+  margin: 80px auto;
 }
